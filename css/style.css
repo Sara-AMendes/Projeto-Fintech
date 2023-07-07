@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+.img-fluid {
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+    background-color: rgba(135, 183, 183, 0.7);
+}
+
+.btn {
+    background-color: rgba(135, 183, 183, 0.8);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: rgba(135, 183, 183, 1.0);
+    color: black;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    color: #1C3552;
+}
+
+.form-label{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
